@@ -1,0 +1,6 @@
+[submodule "src/interfaces"]
+	path = src/proto
+	url = C:\\Users\\VirmersonSantos\\dev\\grpc-learning\\proto-definition
+[submodule "src/proto"]
+	path = src/proto
+	url = C:/Users/VirmersonSantos/dev/grpc-learning/proto-definition
