@@ -1,8 +1,10 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, Scope } from '@nestjs/common';
 
-@Injectable()
+@Injectable({scope: Scope.REQUEST})
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  public storage: any;
+
+  constructor(){
+    debugger;
   }
 }
