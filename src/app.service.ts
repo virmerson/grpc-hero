@@ -1,10 +1,7 @@
-import { Injectable, Scope } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 
-@Injectable({scope: Scope.REQUEST})
+@Injectable()
 export class AppService {
-  public storage: any;
 
-  constructor(){
-    debugger;
-  }
+
 }
